@@ -17,7 +17,6 @@ bot.on('ready', () => {
   let newDate = new Date()
   let date = `${newDate.getHours()}:${newDate.getMinutes()}:${newDate.getSeconds()}`
   console.log(`${date} logged in as ${bot.user.username}!`)
-  bot.user.setActivity('Dev', { type: 1 })
 })
 
 bot.on('message', (msg) => {
